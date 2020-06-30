@@ -1,15 +1,23 @@
 {
-  "name": "v-date-pc-mobile",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vdate-pc-mobile",
+  "version": "0.0.3",
+  "private": false,
+  "description":"这个日历组件主要用来出来每天不同逻辑：比如旅游的项目每天的出团价不一样",
+  "author": "dahaohao <756207996@qq.com>",
+  "main":"lib/vdate-pc-mobile.umd.min.js",
+  "target":"lib",
+  "dest":"lib",
+  "entry":"packages/index.js",
+  "keywords":"靓仔出品必为精品",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vdate-pc-mobile --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11",
+    "vue": "^2.6.11", 
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
