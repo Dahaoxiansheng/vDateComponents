@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <div @click="setDaysBtn">修改数值</div>
+    <div @click="setDaysBtn">模拟后台数据</div>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <vdatePc
       :options="dateOptions"

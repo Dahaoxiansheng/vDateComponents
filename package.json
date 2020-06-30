@@ -1,6 +1,6 @@
 {
   "name": "vdate-pc-mobile",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description":"这个日历组件主要用来出来每天不同逻辑：比如旅游的项目每天的出团价不一样",
   "author": "dahaohao <756207996@qq.com>",
